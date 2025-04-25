@@ -1,0 +1,33 @@
+1.  create makefiles
+    manage compilation
+    syntax highlighting
+    easier setup
+    debugging tools
+    breakpoints
+
+2.  github emreSWED
+
+5.      Developer
+
+        -private:
+            string languages;
+            string name;
+            int age;
+            string skill_level;
+            bool is_employed;
+            int salary;
+        -public:
+            get_languages : string languages;
+            set_languages(string languages);
+            get_name : string name;
+            set_name(string name);
+            set_age(int age);
+            get_age : int age;
+            check_employed : bool is_employed;
+
+6. Software Design tries to analyze the architecture in which the system is to be build for optimal functionality. SWEA focused more on the bare bone requirements. In SWED we try to go more into the question on how to implement it technically.
+
+7. The team need to establish the necessary architecture design. There has to be a unanimous decision from everyone or else it will clash. Without it you may have failures while developing and no idea why because you have not established an architecture design beforehand. (Hertz website failure) It is like a construction site where no one knows if the house has to be five stories tall or a bungalow
+
+8. They are interdepented, since they interact with each other in a specific way.
+    In specific cases, it may be that some designs may not have any effect on other design but there is no guarantee for that! Changing from an SQL to a Non SQL database for example may be critical for the architecture. A UI design may be depending on Component design and component design may depend on database design
